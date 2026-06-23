@@ -89,11 +89,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans          &trans          &trans           &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &none   &none           &kp UP_ARROW    &none            &none   &none
-&trans  &trans  &trans  &trans  &trans  &trans                    &none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none   &none
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &none   &none           &none           &none            &none   &trans
-                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans          &trans
+&trans  &trans  &trans  &trans  &trans  &trans                       &trans  &trans          &trans          &trans           &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                       &none   &none           &kp UP_ARROW    &none            &none   &none
+&trans  &trans  &trans  &trans  &trans  &trans                       &none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none   &none
+&trans  &trans  &trans  &trans  &trans  &trans  &kp M        &trans  &none   &none           &none           &none            &none   &trans
+                &trans  &trans  &trans  &kp J   &kp SPACE    &trans  &trans  &trans          &trans          &trans
             >;
         };
 
